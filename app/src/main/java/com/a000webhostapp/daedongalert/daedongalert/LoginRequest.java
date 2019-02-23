@@ -14,6 +14,7 @@ public class LoginRequest extends StringRequest {
     public static final String TAG = LoginRequest.class.getSimpleName();
 
     final static private String URL = "http://daedongalert.tk/Login.php";
+    final static private String seonju = "just seonju";
     private Map<String, String> parameters;
 
     public LoginRequest(String userID, String userPassword, Response.Listener<String> listener) {
@@ -21,7 +22,7 @@ public class LoginRequest extends StringRequest {
         parameters = new HashMap<>();
         parameters.put("userID", userID);
         parameters.put("userPassword", userPassword);
-        Log.d(TAG, "parameter input!");
+        Log.d(TAG, "parameter input!" + seonju);
 }
 
     @Override
