@@ -1,3 +1,4 @@
+
 package com.a000webhostapp.daedongalert.daedongalert;
 
 import android.os.Bundle;
