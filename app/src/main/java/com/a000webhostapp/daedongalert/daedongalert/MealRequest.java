@@ -13,7 +13,7 @@ public class MealRequest extends StringRequest {
 
     public static final String TAG = MealRequest.class.getSimpleName();
 
-    final static private String URL = "http://daedongalert.tk/meal_api_custom.php";
+    final static private String URL = "https://gifamily.synology.me/meal_api_custom.php";
     private Map<String, String> parameters;
 
     public MealRequest(String countryCode, String schulCode, String insttNm, String schulCrseScCode, String schMmealScCode, String schYmd, Response.Listener<String> listener) {

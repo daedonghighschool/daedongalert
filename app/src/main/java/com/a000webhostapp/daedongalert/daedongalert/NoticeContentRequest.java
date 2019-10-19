@@ -13,7 +13,7 @@ public class NoticeContentRequest extends StringRequest {
 
     public static final String TAG = NoticeContentRequest.class.getSimpleName();
 
-    final static private String URL = "http://daedongalert.tk/get_content.php";
+    final static private String URL = "https://gifamily.synology.me/get_content.php";
     private Map<String, String> parameters;
 
     public NoticeContentRequest(String contentURL, Response.Listener<String> listener) {

@@ -15,7 +15,7 @@ public class RegisterRequest extends StringRequest {
 
     public static final String TAG = RegisterActivity.class.getSimpleName();
 
-    final static private String URL = "http://daedongalert.tk/Register.php";
+    final static private String URL = "https://gifamily.synology.me/Register.php";
     private Map<String, String> parameters;
 
     public RegisterRequest(String userID, String userPassword, String userName, int userKind, Response.Listener<String> listener) {

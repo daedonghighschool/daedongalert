@@ -13,7 +13,7 @@ public class LoginRequest extends StringRequest {
 
     public static final String TAG = LoginRequest.class.getSimpleName();
 
-    final static private String URL = "http://daedongalert.tk/Login.php";
+    final static private String URL = "https://gifamily.synology.me/Login.php";
     private Map<String, String> parameters;
 
     public LoginRequest(String userID, String userPassword, Response.Listener<String> listener) {
